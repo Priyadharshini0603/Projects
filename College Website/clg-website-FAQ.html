@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+      <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FAQ-VTU</title>
+         <link rel="stylesheet" href="clg-website-About.css">
+         <script src = "college website.js"></script>
+         <link rel ="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+         <script src="https://kit.fontawesome.com/4925863bbe.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+   <!--header-->    
+        <section class ="sub-header">
+            <nav>
+                <a href="#"><img src ="veltech logo.png"</a>
+           <div class = "nav-links" id="navLinks">
+            <i id="times" class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <a href="college website.html"><i id=font class="fas fa-home"></i><li><b>Home</b></li></a>
+                <a href="clg-website-About.html.html"><i id=font class="fas fa-info-circle"></i><li ><b>About</b></li></a>
+                <a href="clg-website-admissions.html"><i id=font class="fas fa-graduation-cap"></i><li ><b>Admission</b></li></a>
+                <a href="clg-website-placements.html"><i id=font class="fas fa-briefcase"></i><li ><b>Placements</b></li></a>
+                <a href="clg-website-research.html"><i id=font class="fas fa-book-reader"></i></i></i><li ><b>Research</b></li></a>
+                <a href="clg-website-login.html"><i id=font class="fas fa-sign-in-alt"></i><li ><b>Login</b></li></a>
+                <a href="clg-website-contact us.html"><i id=font class="fas fa-phone"></i><li ><b>Contact Us</b></li></a>
+                <a href="clg-website-email.html"><i id=font class="fas fa-envelope"></i><li ><b>E-mail</b></li></a>
+                 <a href="clg-website-FAQ.html"><i id=font class="fas fa-question-circle"></i><li ><b>FAQ</b></li></a>  
+            </ul>
+        </div>
+        <i id="times" class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+       </section>
+    <!--script-media query (700px) for hide and show navLinks-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+    navLinks.style.right="0";
+    }
+   function hideMenu(){
+    navLinks.style.right="-200px";
+   }
+</script>
+
+<!---FAQ PAGE--->
+<section>
+  
+    <h2 id=header2>FAQ For Incoming Exchange Students</h2>
+  
+    <img id="FAQimg" class = faq-img src ='faq.png'>
+</section>
+<!---down navigation-->
+<section  id = "down-navigation"class="down-nav1">
+<div  id = faqquestion>
+<!---FAQ-->
+<button id=button class="deans-btn"><i id= "plus-btn" class="fas fa-chevron-down" onclick="apply()"></i>How to Apply ?</button>
+<div  id = apply>
+  <br>
+  <table id="admin">
+ <p id = Bm-para>The application can be submitted either online or offline. 
+     The application must be processed only through the Home University International Office.
+    <br>In case of online Application, the submitted application to be printed and to be signed by the 
+    International Office executive before sending to <b>dint@veltech.edu.in</b></p> 
+ 
+  </table>
+</div>
+<!--- script-apply-->
+<script>
+    function apply() {
+    var i = document.getElementById("apply");
+    if (i.style.display === "none") {
+      i.style.display = "table";
+    } else {
+      i.style.display = "none";
+    }
+  }
+</script>
+
+
+<!---fee-->
+<button id=button  class="deans-btn"><i id= "plus-btn" class="fas fa-chevron-down" onclick="fee()"></i>Do I need to pay any Fee ?</button>
+<div  id = fee>
+  <br>
+  <table id="admin">
+ <p id = Bm-para>Exchange students from Partner University need not pay any Tuition Fee. 
+     The students have to Pay for only accommodation and foodfor their stay at Vel Tech Hostel.</p>
+  </table>
+</div>
+<!--- script-fee-->
+<script>
+    function fee() {
+    var m = document.getElementById("fee");
+    if (m.style.display === "none") {
+      m.style.display = "table";
+    } else {
+      m.style.display = "none";
+    }
+  }
+</script>
+
+<!--scholarship--->
+<button  id=button class="deans-btn"><i id= "plus-btn" class="fas fa-chevron-down" onclick="scholorship()"></i>Is there any Scholarship for students ?</button>
+<div  id = scholarship>
+  <br>
+  <table id="admin">
+ <p id = Bm-para>No stipend or Scholarship will be provided unless otherwise,
+      it is indicated specifically and confirmed in advance.</p> 
+  
+  </table>
+</div>
+<!--- script-scholarship-->
+<script>
+    function scholorship() {
+    var m = document.getElementById("scholarship");
+    if (m.style.display === "none") {
+      m.style.display = "table";
+    } else {
+      m.style.display = "none";
+    }
+  }
+</script>
+
+
+<!---work-->
+<button id=button  class="deans-btn"><i id= "plus-btn" class="fas fa-chevron-down" onclick="work()"></i>Can I opt to work under more than one Department ?</button>
+<div  id = work>
+  <br>
+  <table id="admin">
+ <p id = Bm-para>No, the student shall be allotted for courses works and / or project work offered by any one department.
+    But, the Exchange student may give the preferences of the department and it is advised to select the department that best fits with the student major.</p>
+  </table>
+</div>
+<!--- scriptwork-->
+<script>
+    function work() {
+    var m = document.getElementById("work");
+    if (m.style.display === "none") {
+      m.style.display = "table";
+    } else {
+      m.style.display = "none";
+    }
+  }
+</script>
+
+<!---Dean Of hardcopy-->
+<button  id=button class="deans-btn"><i id= "plus-btn" class="fas fa-chevron-down" onclick="hardCopy()"></i>Do I need to send hard copies of Application Form ?</button>
+<div  id = hardCopy>
+  <br>
+  <table id="admin">
+ <p id = Bm-para>No, Soft copy of Applicationform may be sent along with supporting documents through exchange coordinator / international office at home university by email.</p>
+  </table>
+</div>
+<!--- script-hard-copy-->
+<script>
+    function hardCopy() {
+    var m = document.getElementById("hardCopy");
+    if (m.style.display === "none") {
+      m.style.display = "table";
+    } else {
+      m.style.display = "none";
+    }
+  }
+</script>
+
+<!--decision--->
+<button  id=button class="deans-btn"><i id= "plus-btn" class="fas fa-chevron-down" onclick="decision()"></i>How will I be Informed of my admission decision ?</button>
+<div  id = decision>
+  <br>
+  <table id="admin">
+ <p id = Bm-para>The notification for the admission decision will be sent by email to the applicant and home university international office. Original Admission letter will be sent 
+   to Home International Office for Visa purposes, if required.</p>
+  </table>
+</div>
+<!--- script-decision-->
+<script>
+    function decision() {
+    var m = document.getElementById("decision");
+    if (m.style.display === "none") {
+      m.style.display = "table";
+    } else {
+      m.style.display = "none";
+    }
+  }
+</script>
+
+
+<!---expenses-->
+<button  id=button class="deans-btn"><i id= "plus-btn" class="fas fa-chevron-down" onclick="expenses()"></i>How much are the living expenses ? What is covered ? </button>
+<div  id = expenses>
+  <br>
+  <table id="admin">
+ <p id = Bm-para>For the shared accommodation (2 in 1 AC Room) with a double bed, the cost is 150 
+   Euros/Month and for Single accommodation (Separate AC room), the cost is 250 Euro/Month.
+
+  The above charges covers airport transfers, 
+  Indian Food, a/c accommodation, Wi-Fi, access to Gym
+   and transport between the accommodation and university.</p>
+  </table>
+</div>
+<!--- script-expenses-->
+<script>
+    function expenses() {
+    var m = document.getElementById("expenses");
+    if (m.style.display === "none") {
+      m.style.display = "table";
+    } else {
+      m.style.display = "none";
+    }
+  }
+</script>
+
+
+<!---expenses-pay-->
+<button  id=button class="deans-btn"><i id= "plus-btn" class="fas fa-chevron-down" onclick="expensesPay()"></i>How do I pay living expenses ? </button>
+<div  id = expensesPay>
+  <br>
+  <table id="admin">
+ <p id = Bm-para>The living expenses shall be paid on arrival 
+   in INR (Indian Rupees) to the University account.</p>
+    
+   
+  </table>
+</div>
+<!--- script-expensesPay-->
+<script>
+    function expensesPay() {
+    var m = document.getElementById("expensesPay");
+    if (m.style.display === "none") {
+      m.style.display = "table";
+    } else {
+      m.style.display = "none";
+    }
+  }
+</script>
+<!--convert--->
+<button  id=button class="deans-btn"><i id= "plus-btn" class="fas fa-chevron-down" onclick="convert()"></i>How do I convert my currency to INR ?</button>
+<div  id = convert>
+  <br>
+  <table id="admin">
+ <p id = Bm-para>Vel Tech International Office will arrange authorized agent to visit campus for money exchange with minimum of 200 Euro. Alternatively, the currency exchange agent contact details may be collected from International Office.
+<br>
+  Conversion at airport or through any other agent may also be done, but it may incur additional conversion charges
+  </table>
+</div>
+<!--- script-convert-->
+<script>
+    function convert() {
+    var m = document.getElementById("convert");
+    if (m.style.display === "none") {
+      m.style.display = "table";
+    } else {
+      m.style.display = "none";
+    }
+  }
+</script>
+
+
+
+<!--immigration--->
+<button id=button  class="deans-btn"><i id= "plus-btn" class="fas fa-chevron-down" onclick="immigration()"></i>What is the Immigration process at Veltech ? </button>
+<div  id = immigration>
+  <br>
+  <table id="admin">
+ <p id = Bm-para>On your arrival, Foreigner Regional Registration Offices (FRRO) procedures have to be completed and it is responsibility of the Foreigner to complete the process. Directorate of International will assist for all these process.
+<br>
+  Form C (within 24 Hours of your arrival)<br>
+  Form S (within a week of your arrival)<br>
+  Registration in e- FRRO Portal (If Visa Validity is more than 180 days or if Visa endorsed with Registration required within 14 days of Arrival).
+  <br>The procedures will be taken care of by our Directorate of International Relations in your presence.</p>
+   
+  </table>
+</div>
+<!--script-immigration -->
+<script>
+    function immigration() {
+    var m = document.getElementById("immigration");
+    if (m.style.display === "none") {
+      m.style.display = "table";
+    } else {
+      m.style.display = "none";
+    }
+  }
+</script>
+
+
+<!--wifi-->
+<button id=button  class="deans-btn"><i id= "plus-btn" class="fas fa-chevron-down" onclick="wifi()"></i>Do I get Wifi in my hostel and in the University Campus ? </button>
+<div  id = wifi>
+  <br>
+  <table id="admin">
+ <p id = Bm-para>Yes, User id and password for the access to Wi-Fi at Hostel will be shared by Hostel In charge on your arrival. Details on campus Wi-Fi will be 
+   shared by our Teammate on your arrival at campus</p>
+  </table>
+</div>
+<!--script-wifi -->
+<script>
+    function wifi() {
+    var m = document.getElementById("wifi");
+    if (m.style.display === "none") {
+      m.style.display = "table";
+    } else {
+      m.style.display = "none";
+    }
+  }
+</script>
+
+
+<!--sim-->
+<button id=button  class="deans-btn"><i id= "plus-btn" class="fas fa-chevron-down" onclick="sim()"></i>How do I get a SIM card ? </button>
+<div  id = sim>
+  <br>
+  <table id="admin">
+ <p id = Bm-para>Our Teammate will assist in getting a SIM card on completion of FRRO Procedures. A valid passport copy and photo are mandatory for getting a SIM card.</p>
+  </table>
+</div>
+<!--script-sim -->
+<script>
+    function sim() {
+    var m = document.getElementById("sim");
+    if (m.style.display === "none") {
+      m.style.display = "table";
+    } else {
+      m.style.display = "none";
+    }
+  }
+</script>
+
+
+<!--facilitiesHostel-->
+<button id=button  class="deans-btn"><i id= "plus-btn" class="fas fa-chevron-down" onclick="facilitiesHostel()"></i>What are the Facilities available at the hostel ? </button>
+<div  id = facilitiesHostel>
+  <br>
+  <table id="admin">
+ <p id = Bm-para>Table Tennis, Gym, Common Washing Machine (Laundry Facility), Wi-Fi, 
+   AC Room Equipped with TV, Fridge and Water Heater. </p>
+  </table>
+</div>
+<!--script-facilitiesHostel -->
+<script>
+    function facilitiesHostel() {
+    var m = document.getElementById("facilitiesHostel");
+    if (m.style.display === "none") {
+      m.style.display = "table";
+    } else {
+      m.style.display = "none";
+    }
+  }
+</script>
+
+
+
+</div>
+</section>
+
+<!----footer-->
+<section class= "footer">
+  <div class="row">
+      <div id = "footerSec" class = footer-col>
+         <h4><u>IMPORTANT &nbsp;LINKS</u></h4>
+       <ul>
+         <li><a href="https://www.veltech.edu.in/academics-wpuploads/AICTE%20MANDATORY%20DISCLOSURE.pdf"  target="_blank" download>AICTE Mandatory Disclosure</li></a>
+         <li><a href="clg-website-footer.html" target="_blank">Grievance Redressal Committee</li></a>
+         <li><a href="https://veltech.edu.in/academics-wpuploads/BY-LAW-2014-05-09-2014.pdf"  target="_blank"> BY LAW 2014 – 05 09 2014</li></a>
+         <li><a href="https://www.veltech.edu.in/academics-wpuploads/Admin_Rules_And_Procedures/" target="_blank"> Admin Rules and Procedures</li></a>
+       </ul>
+      </div>
+  <div id = "footerSec" class = footer-col>
+     <h4><u>CAREER &nbsp;LINKS</u></h4>
+      <ul>
+         <li><a href="clg-website-vacancy.html"target="_blank">Vacancies</li></a>
+         <li><a href="clg-website-email.html" target="_blank"> Enroll Now</li></a>
+         <li><a href="clg-website-contact us.html" target="_blank"> Enquiry</li></a>
+      </ul>
+  </div>   
+  <div  id = "footerSec" class= "footer-col">
+      <h3 class = clgNameFooter> <b>VELTECH UNIVERSITY,Avadi,Chennai,India</b></h3>
+      <h5> Copyright 2020|Terms & Conditions |  Privacy Policy | All Rights Reserved</h5>
+         
+  
+          <a href="https://www.facebook.com/veltechinstitute/"target="_blank"><i  id ="fb" class="fab fa-facebook-square"></i></a>
+  
+          <a href="https://twitter.com/VT_Univ"target="_blank"><i id ="twitter" class="fab fa-twitter-square"></i></a>
+      
+          <a href="https://www.instagram.com/veltech_institute/"target="_blank"><i  id = "instagram" class="fab fa-instagram-square"></i></a>
+          <a href="https://www.linkedin.com/in/vel-tech-164258a8/" target="_blank"><i  id ="watsapp" class="fab fa-linkedin"></i></a>
+      
+  </div>
+</div>
+</section>
+
+</body>
+</html>     
