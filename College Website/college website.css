@@ -1,0 +1,620 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    min-height: 100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url('footer img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    position: relative;
+}
+ nav img{
+    width:400px;
+    height:150px;
+}
+nav{
+    align-items: right;
+    padding:2% 6%;
+    justify-content: space-between;
+    display: flex;
+}
+.nav-links{
+    flex:1;
+    text-align:right;
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    padding:9px 8px;
+    position:relative;
+    color:#fff;
+    font-size:18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    
+}
+i{
+    color:red;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width:0%;
+    height:2px;
+    background:#fff;
+    display:block;
+    margin:auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+  width:100%;
+  transition: 0.5s;
+}
+.text-box{
+   
+    width:90%;
+    color:#fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size:60px;
+    
+}
+.text-box p{
+    font-size:25px;
+    color:#fff; 
+    margin:10px 0 30px;
+}
+.visit-us{
+    text-decoration: none;
+    color:#fff;
+    display:inline-block;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 34px;
+    border: 2px solid #fff;
+    background: transparent;
+}
+.visit-us:hover{
+    border:2px solid #f44336;
+    background:#f44336;
+    transition: 0.5s;
+}
+#times{
+  display: none;
+}
+
+/*media*/
+
+@media(max-width: 766px) {
+    .text-box h1{
+        font-size:20px;    
+    }
+    .text-box p{
+        font-size:15px;
+        color:#fff; 
+        margin:10px 0 30px;
+    }
+    nav img{
+        width:230px;
+        height:90px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .nav-links ul{
+        text-align:left;
+    }
+    .nav-links ul li{
+        display:block;
+        font-size:15px;
+        text-transform: uppercase;
+        
+    }
+    .nav-links{
+        text-decoration: none;
+        position:fixed;
+        background:#f44336;
+        height:100vh;
+        width:200px;
+        top:0;
+        right:-200px;
+        text-align: left;
+        z-index:2;  
+        transition: 1s;  
+    }
+    #times{
+        display:block;
+        color:#fff;
+        margin:10px;
+        font-size: 20px;
+        cursor:pointer;
+    } 
+
+    #font{
+        display:none;
+    }
+    
+    .visit-us{
+        font-size:15px;
+        color:greenyellow;   
+    }
+ .courses h1{
+     font-size:20px;
+ }
+ .courses p{
+    font-size:15px;
+}
+#courses-li{
+    font-size:13px;
+}
+.campus p{
+    font-size:15px;
+}
+.faculty p{
+    font-size:15px;
+}
+    .row{
+        flex-direction: column;
+    }
+
+.table{
+    padding:1px;
+    width:5px;
+    font-size: 12px;
+
+}
+.departments{
+    font-size:6px;   
+}
+.alumni p{
+    font-size: 15px;
+}
+#stud{
+    width:50px;
+    height:50px;
+    margin-left: 0px;
+    margin-right:15px;
+    border-radius: 50%;
+}
+#say{
+    line-height:16PX;
+    text-align:justify;
+    color:black;
+    font-size:15px;
+    padding:0;
+}
+#name{
+    font-size:17px;
+}
+#star{
+    font-size: 14px;
+}
+
+}
+@media(min-width: 768px) and (max-width:1024px) {
+    .text-box h1{
+        font-size:20px;    
+    }
+    .text-box p{
+        font-size:15px;
+        color:#fff; 
+        margin:10px 0 30px;
+    }
+    nav img{
+        width:230px;
+        height:90px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .nav-links ul{
+        text-align:left;
+    }
+    .nav-links ul li{
+        display:block;
+        font-size:15px;
+        text-transform: uppercase;
+        
+    }
+    .nav-links{
+        text-decoration: none;
+        position:fixed;
+        background:#f44336;
+        height:100vh;
+        width:200px;
+        top:0;
+        right:-200px;
+        text-align: left;
+        z-index:2;  
+        transition: 1s;  
+    }
+    #times{
+        display:block;
+        color:#fff;
+        margin:10px;
+        font-size: 20px;
+        cursor:pointer;
+    } 
+
+    #font{
+        display:none;
+    }
+    
+    .visit-us{
+        font-size:15px;
+        color:greenyellow;   
+    }
+ .courses h1{
+     font-size:20px;
+ }
+ .courses p{
+    font-size:15px;
+}
+#courses-li{
+    font-size:13px;
+}
+.campus p{
+    font-size:15px;
+}
+.faculty p{
+    font-size:15px;
+}
+    .row{
+        flex-direction: column;
+    }
+
+.table{
+    padding:1px;
+    width:15px;
+    font-size: 12px;
+
+}
+#depart{
+    font-size:13px;   
+}
+.alumni p{
+    font-size: 15px;
+}
+#stud{
+    width:80px;
+    height:80px;
+    margin-left: 0px;
+    margin-right:15px;
+    border-radius: 50%;
+}
+#say{
+    line-height:20PX;
+    text-align:justify;
+    color:black;
+    font-size:17px;
+    padding:0;
+}
+#name{
+    font-size:17px;
+}
+#star{
+    font-size: 16px;
+}
+.footer{
+    margin:0;
+    border-radius: none;
+}
+
+}
+
+/*courses*/
+
+.courses{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:50px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 500px;
+}
+ p{
+    font-size: 25px;
+    font-weight:600px;
+    line-height: 15px;
+    padding:17px;
+    color:red;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.courses-col{
+    flex-basis: 31%;
+    background:#FFFACD;
+    border-radius:10px;
+    margin-bottom:5%;
+    padding:20px 12px;
+    box-sizing:border-box;
+}
+.courses-col ul li{
+    list-style: none;
+    font-size: 16px;
+    text-align:left;
+    padding:5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.courses-col ul li:hover{
+    color:blue;
+    
+
+}
+
+.courses-col h3,h4{
+    color:indigo;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*----campus----*/
+.campus{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:50px;
+}
+p{
+    font-size: 20px;
+    
+}
+.campus-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.campus-col img{
+    width:100%;
+    height:100%;
+    display: block;
+    
+}
+.layer{
+    border-color:black;
+    background: transparent;
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.layer:hover{
+    background: rgba(212,0,0,0.8);
+    transition: 0.8s;
+}
+.layer h3{
+    color:white;
+    width:100%;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:25px;
+    bottom:0;
+    left:50%;
+    transform: translateX(-50%);
+    position:absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom:49%;
+    opacity:1;
+}
+
+/*faculty */
+.faculty{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:50px;
+}
+p{
+    font-size: 20px;
+    
+}
+.faculty h3{
+    text-align: center;
+}
+table{
+    display: none;
+    align-items: center;
+    border: #fff;
+    border-collapse: collapse;
+    width:1000px;
+    height:fit-content;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);
+}
+#header{
+    background-color: #FFFACD;
+    color:black;
+}
+#header:hover{
+    background-color:#FFFACD ;
+    transform:scale(1);  
+    box-shadow:none;
+}
+tr{
+    transition: all 0.3s ease-in;
+    cursor:pointer;
+}
+th,td{
+    padding:10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover{
+    background-color: #f5f5f5;
+    transform:scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);
+}
+tr:nth-child(even){
+    background-color :#f3f3f3;
+    
+}
+.faculty-list{
+    float:left;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+.departments{
+ float: left;
+ font-size: 15px;
+ font-weight: 500;
+ border:none;
+ background: #fff;
+ color:navy;
+ margin:0;
+}
+#down-btn{
+    cursor:pointer;
+    font-size: 20px;
+    color:grey;
+    padding:8px;
+}
+#down-btn:hover{
+    color:red;
+}
+
+@media(max-width:770px)
+ {
+    #depart{
+        font-size:9px;   
+    }
+}
+/*Alumni*/
+.alumni{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:10px;
+}
+p{
+font-size: 20px; 
+
+}
+.alumni-col{
+    flex-basis:44%;
+    border-radius:10px;
+    margin-bottom:5%;
+    text-align: left;
+    background-color:#FFE4E1;
+    padding:25px;
+    cursor:pointer;
+    display:flex;
+   
+}
+.alumni-col h3{
+    font-size: 19px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.alumni-col p{
+    line-height:22PX;
+    text-align:justify;
+    color:black;
+    font-size:18px;
+    padding:0;
+}
+.alumni-col img{
+ width:200px;
+ height:200px;
+ margin-left: 5px;
+ margin-right: 30px;
+ border-radius: 50%;
+}
+
+
+
+
+/*---footer---*/
+
+
+
+
+.footer{
+    margin:2px;
+}
+.clgNameFooter{
+    font-size: 18px;
+    color:navy;
+}
+
+.footer-box1{
+    overflow: scroll;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:fit-content;
+    color:navy;
+    overflow: scroll;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+
+}
+.footer-box1 td,.footer-box1 th{
+    border: 1px solid #ddd;
+    padding:8px;
+}
+.footer-col{
+    border-radius:1px;
+    text-align: left;
+    background-color: #e0ebeb;
+    padding:20px;
+    margin:0;
+    cursor:pointer;
+    width:97%;
+    height:160px;
+}
+
+.footer-col ul a{
+    line-height:28px;
+    font-size: 18px;
+    list-style: none;
+    text-decoration: none;
+    color:black;
+    font-weight: 300;
+}
+.footer-col ul a:hover{
+    font-size:20px;
+}
+
+/*---social media---*/
+#watsapp{font-size:35px;color:#0077b5;padding:10px}
+#watsapp:hover{
+    font-size: 45px;
+}
+
+#fb{font-size:35px;color:royalblue;padding:10px}
+#fb:hover{
+    font-size: 45px;
+}
+#twitter{font-size:35px;color:rgba(23, 222, 248, 0.685);padding:10px}
+#twitter:hover{
+    font-size: 45px;
+}
+
+#instagram{font-size:35px;color:rgb(233, 6, 138);padding:10px}
+
+#instagram:hover{
+    font-size: 45px;
+}
+
