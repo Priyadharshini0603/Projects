@@ -1,0 +1,44 @@
+
+<html>
+    <head>
+<title>email-check</title>
+<link rel="stylesheet" href="email.css">
+
+
+    </head>
+    <body>
+
+
+
+        <div id = "forms" class = "form_suggestion">
+        <h3 class = "suggestion-head">GIVE US A SUGGESTION </h3>
+        <p><span class="error">* Required Fields</span></p>
+        
+      
+        <form method="POST" action ="email.php" autocomplete="off">
+          <label  class = form-name> Your Name: </label><br><input  id = "formName" type = "text" name = "name" placeholder="Name"><span class="error">* <?php echo $nameErr ; ?></span><br><br><br><br>
+          <label class = form-name>Your Email.ID: </label><br><input id = "formName" type = "text" name = "email" placeholder="Email"><span class="error">* <?php echo $$submit_emailErr ; ?></span><br><br><br><br>
+          <label class = form-name> Your Mobile No.: </label><br><input  id = "formName" type = "text" name = "number" placeholder="Mobile number"><span class="error">* <?php echo $mobile_numberErr ; ?></span><br><br><br><br>
+          <label class = form-name>Subject:</label><br> <input id = "formName"  type = "text" name = "subject" placeholder="Subject"><span class="error">* <?php echo $subjectErr; ?></span><br><br><br><br>
+          <label class = form-name> Comment:</label><br><textarea id = "formName"  class = "comment" name = "comment" placeholder="Tell us..."></textarea><br><br>
+            <br> <input id = "submitBtn" class = "submit-btn" type = "SUBMIT" name = "SUBMIT" value="SUBMIT">
+        </form>
+        </div>
+<br>
+<h3 class = "suggestion-head">input </h3>
+        
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

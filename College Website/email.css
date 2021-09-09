@@ -1,0 +1,72 @@
+
+/*---email page--*/
+.header-background{
+    background-color:lightgoldenrodyellow;
+    height:100px;
+}
+.suggestion-head{
+    text-align: center;
+    font-size: 27px;
+    word-spacing: 8px;
+}
+.form_suggestion{
+    margin: auto;
+     
+    padding: 10px 20px;
+    width:600px;
+     height:auto;
+     border-radius: 10px;
+     border:2px solid white;
+     box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2); 
+     
+}
+.error{
+    color:red;
+}
+.form-name{
+    text-align:left;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: firebrick;
+    
+}
+input[type=text]{
+   border:none;
+   padding:2px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+    border-bottom: 2px solid black;
+    width:550px;
+    height:30px;
+  }
+  .comment{
+      border:2px solid black;
+      padding:2px 20px;
+      margin: 8px 0;
+      width: 550px; 
+      height:200px;
+      border-radius: 5px;
+  }
+  .submit-btn{
+      display: inline-block;
+      text-align:center;
+      margin-left: 190px;
+      margin-bottom: 2%;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding:12px;
+      width:150px;
+      color:white;
+      border:none;
+      background-color:navy;
+      transition-duration: 0.4s;
+      cursor: pointer;
+  }
+ 
+  .submit-btn:hover {
+    color:black;
+    background-color:lightblue;
+  }
+
+
+
