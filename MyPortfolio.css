@@ -1,0 +1,207 @@
+html{
+    scroll-behavior: smooth;
+}
+.header1{
+    min-height: 100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url('footer img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    position: relative;
+}
+body{
+    background-color: #ddd;
+}
+.text-box{
+   
+    width:90%;
+    color:#fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size:45px;
+    
+}
+.text-box p{
+    font-size:20px;
+    color:#fff; 
+  
+}
+.readMore-btn{
+    text-decoration: none;
+    color:#fff;
+    display:inline-block;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 34px;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 19px;
+    border-radius: 6px;
+}
+.readMore-btn:hover{
+    border:2px solid #f44336;
+    background:#f44336;
+    transition: 0.5s;
+}
+
+
+@media(max-width: 766px){
+#skills{
+    flex-direction: column;
+    }
+
+}
+.myImg{
+    height:260px;
+    width:280px;
+    border-radius: 50px;
+}
+.obj-col{
+
+border-radius:10px;
+margin-bottom:0.5%;
+text-align: left;
+background-color:#FFE4E1;
+padding:15px;
+cursor:pointer;
+display:flex;
+}
+.profile-info{
+    background-color: antiquewhite;
+    width:80%;  
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+
+   
+}
+.education-info{
+    margin-top: -30px;
+}
+.profile-info p{
+   width:90%;
+    margin:10px;
+    padding:10px;
+    text-align:justify;
+    color:black;
+    font-size: 17px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+
+
+
+.education-h2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: crimson;
+    text-align:center;
+   
+  
+}
+.education-h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: crimson;
+    text-align: center;
+  
+}
+.about-box1{ 
+   margin-left: auto;
+   margin-right: auto;
+    background-color:#fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:75%;
+    align-items: center;
+    border: #fff;
+    border-collapse:collapse;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+   }
+  
+   .about-box1 td, .about-box1 th{
+       border: 1px solid #ddd;
+       padding:8px;
+   }
+
+   tr:nth-child(even){
+    background-color :#f3f3f3; 
+}
+tr{
+    transition: all 0.3s ease-in;
+    cursor:pointer;
+}
+tr:hover{
+    background-color: #f8f6e2;
+    transform:scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);
+}
+#details3, #details4{
+    color:navy;
+    font-size: 16px;
+   
+}
+#details5 , #details6{ 
+    color:black;
+    padding:10px;
+    text-align:center;
+    border-bottom: 1px solid #ddd;
+    
+}
+.S-NO:hover{
+    background-color: #fff;
+    transform:scale(1);
+    box-shadow: none; 
+}
+
+.skills{
+    width:90%;
+    margin:auto;
+    text-align:center;
+    
+}
+.heading3{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 
+    'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:crimson;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.skills-col{
+    flex-basis:33%;
+    background:#FFFACD;
+    border-radius:10px;
+    padding:20px 12px;
+    box-sizing:border-box;
+}
+.project-col{
+    flex-basis:33%;
+    background:#f8dfdd;
+    border-radius:10px;
+    padding:20px 12px;
+    box-sizing:border-box;
+}
+.skills-col ul li,.project-col ul li{
+    list-style:circle;
+    font-size: 16px;
+    text-align:left;
+    padding:5px;
+    font-family: 'Lucida Sans',
+     'Lucida Sans Regular', 'Lucida Grande', 
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.skills-col ul li:hover{
+    color:blue;
+}
