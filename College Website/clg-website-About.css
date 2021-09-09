@@ -1,0 +1,2040 @@
+
+
+
+            /*------------------------------------HOME-page------------------------------------------------------*/
+
+
+
+/*--sub-header---page*/
+nav img{
+    width:400px;
+    height:150px;
+}
+nav{
+    align-items: right;
+    padding:1% 4%;
+    justify-content: space-between;
+    display: flex;
+}
+.nav-links{
+    flex:1;
+    text-align:right;
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    padding:9px 8px;
+    position:relative;
+    color:#fff;
+    font-size:18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    
+}
+/*--icons--*/
+i{
+    color:red;
+}
+/*--icons-hide for laptop px---*/
+#times{
+    display: none;
+}
+.nav-links ul li{
+    color:black;
+}
+.nav-links ul li::after{
+    content: '';
+    width:0%;
+    height:2px;
+    background:black;
+    display:block;
+    margin:auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+  width:100%;
+  transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+        /*-----------------------------------------------MEDIAQ-------------------------------------------*/
+
+
+
+
+
+
+
+/*---media-mobile-*/
+@media(max-width: 766px) {
+    
+    body{
+        overflow-x: hidden;
+    }
+    nav img{
+        width:230px;
+        height:90px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .nav-links ul{
+        text-align:left;
+    }
+    .nav-links ul li{
+        display:block;
+        font-size:15px;
+        color:black;
+        text-transform: uppercase;
+        
+    }
+    .nav-links{
+        text-decoration: none;
+        position:fixed;
+        background:#f55d52;
+        height:100vh;
+        width:200px;
+        top:0;
+        right:-200px;
+        text-align: left;
+        z-index:2;  
+        transition: 1s;  
+    }
+    #times{
+        display:block;
+        color:#262626;
+        margin:10px;
+        font-size: 20px;
+        cursor:pointer;
+    } 
+
+    #font{
+        display:none;
+    }
+.about-box{
+    font-size: 16px;
+    margin-left:28px;
+    margin-top:-55px;
+    width:155px;
+}
+#ROW{
+    margin-top:14%;
+    margin-bottom: 5%;
+    margin-left: 1.7%;
+}
+#content{
+    margin:0px;
+    padding:0;
+    width:330px;
+}
+#aboutColMedia{
+    margin: 0;
+    padding: 0;
+    width:330px;
+}
+.row{
+    flex-direction: column;
+    }
+#footerSec{
+    margin:0px;
+    width:340px;
+}
+#header2{
+    font-size:16px;
+}
+#about-col p{
+    font-size:14px;
+}
+.name1{
+    font-size: 14px;
+}  
+.place1{
+    font-size: 14px;
+   
+
+}
+.parag1{
+    font-size: 16px;
+    line-height:19px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#down-navigation{
+    width:320px;
+    margin: 10px;
+}
+#button{
+    width:290px;
+    text-align: center;
+}
+#table-plus, #table-plus1, #table-plus2, #table-plus3, #table-plus4,#table-ugscholar,#table-hostelfees,#table-transportFees{
+    
+    width:90px;
+    margin:7px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+    background-color: #fff;
+    overflow: scroll;
+}
+#dean3{
+    width:10px;
+    font-size: 12px;
+    overflow: scroll;
+}
+
+#imageGallery,#imageGallery1{
+    width:325px;
+    margin:5px;
+}
+
+#column1 {
+    float: left;
+    width:50%;
+}
+#sportsImg{
+    width:335px;
+    margin-top:3%;
+}
+.map-wrap{
+    margin:6px;
+    width:320px;
+}
+#flow-img{
+    width:200px;
+}
+#placement-media{
+    display:block;
+    text-align: center;
+   
+ }
+.placeImg-media{
+    height:900px;
+    width:300px;
+    padding:20px;
+   
+}
+
+#placement-year{
+    margin:10px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2); 
+}
+.place-h2{
+    font-size: 18px;
+}
+.total-media{
+   margin-left:86px;
+ }
+#utube{
+    width:310px;
+    margin:15px;
+}
+.adminimg{
+    width:320px;
+    height:300px;
+    margin:17px;
+}
+#adminimg{
+    width:320px;
+    height:300px;
+    margin:17px;
+}
+
+#loginImg{
+    width:330px;
+    height:400px;
+    margin:6px;
+}
+#resetMedia{
+    width:300px;
+    margin:20px;
+    margin-bottom: -20px;
+}
+#loginTable{
+    margin:20px;
+}
+.paragraph{
+    font-size:8px;
+}
+#forms{
+    width:330px;
+    margin-top: 8%;
+}
+#formName{
+    width:280px;
+}
+#contactHeading{
+    font-size: 13px;
+}
+#submitBtn{
+    width:fit-content;
+    font-size: 16px;
+    margin-left:95px;
+}
+#FAQimg{
+    width:330px;
+    height:400px;
+    margin:6px;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+}
+.images-graph{
+    width:300px;
+    height:300px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+}
+#AR-btn{
+    text-align: center;
+    margin-left:23px;
+}
+#phd-admission{
+    display:none;
+}
+#scholar-ship,#table-list{
+    font-size: 11px;
+    margin-left:0px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+    overflow: scroll;
+}
+#research-btn1{
+    width:260px;
+    height:100px;
+    font-size:16px;
+    
+}
+#research-btn1:hover{
+    border:1px solid black;
+    color:#fff;
+    background-color: rgb(223, 64, 95);
+}
+
+#research-btn2{
+    font-size: 16px;
+}
+
+#patentHeader{
+    margin-top: -20px;
+}
+#research-btn5{
+    margin-left:0px;
+}
+#research-btn4,#research-btn3{
+float:left;
+margin: 40px;
+margin-top: -10px;
+}
+
+.about-box1{
+    overflow: scroll;
+}
+#faculty-img{
+  height: 400px;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.7),-1px -1px 8px rgba(0,0,0,0.8); 
+  border-radius: 10px;
+   }
+   #footertable{
+       overflow: scroll;
+       font-size: 13px;
+       padding:0;
+       margin-bottom:5%;
+   }
+
+}
+/*--media-tablet--*/
+@media(min-width: 768px) and (max-width:1020px){
+    #ROW{
+        margin-top:14%;
+        margin-bottom: 5%;
+        margin-left: 1.7%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    #aboutBox{
+        font-size: 16px;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top:70px;
+       
+        width:455px;
+    }
+    .text-box h1{
+        font-size:20px;    
+    }
+    .text-box p{
+        font-size:15px;
+        color:white; 
+        margin:10px 0 30px;
+    }
+    nav img{
+        width:230px;
+        height:90px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .nav-links ul{
+        text-align:left;
+    }
+    .nav-links ul li{
+        display:block;
+        font-size:15px;
+        text-transform: uppercase;
+        color:white;
+        
+    }
+    .nav-links ul li:hover{
+        color:black;
+    }
+    .nav-links{
+        text-decoration: none;
+        position:fixed;
+        background:#f55d52;
+        height:100vh;
+        width:200px;
+        top:0;
+        right:-200px;
+        text-align: left;
+        z-index:2;  
+        transition: 1s;  
+    }
+    #times{
+        display:block;
+        color:black;
+        margin:10px;
+        font-size: 20px;
+        cursor:pointer;
+    } 
+
+    #font{
+        display:none;
+    }
+    
+    .name1{
+        font-size: 12px;
+    }  
+    .place1{
+        font-size: 12px;
+       
+    
+    }
+    .parag1{
+        font-size: 14px;
+        line-height:19px;
+        text-align: justify;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #footerSec{
+        margin:0px;
+        border-radius: 0%;
+        width:auto;
+        height: auto;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+   
+   #aboutcolm{
+       font-size: 10px;
+   }
+   #down-navigation{
+    width:fit-content;
+    margin: 30px;
+}
+#button{
+    width:600px; 
+    text-align: center;
+}
+.map-wrap{
+    width:550px;
+    padding:25px;
+    margin-left:90px;
+    margin-right:50px;
+    height:200px; 
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+
+}
+#imageGallery{
+    width:735px;
+    margin:5px;
+}
+#flow-img{
+    width:300px;
+}
+#imageGallery1{
+    width:600px;
+    margin:5px;
+}
+#utube{
+    width:720px;
+    margin:15px;
+}
+.adminimg,#adminimg{
+    width:720px;
+    height:300px;
+    margin:17px;
+}
+
+
+#fees-btn{
+display: block;
+width:700px;
+}
+#FAQimg{
+    width:720px;
+    height:400px;
+    margin:13px;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+}
+#scholar-ship{
+    margin:30px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+}
+#research-btn3,#research-btn4{
+    display:block;
+    margin:0;
+}
+.images-graph{
+    width:300px;
+    height:270px;
+    margin:5px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2); 
+}
+#placement-year{
+    width: 300px;
+    margin:5px;
+   
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2); 
+}
+#research-btn1{
+    width:560px;
+    height:70px;
+    font-size:16px; 
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+}
+#research-btn1:hover{
+    border:1px solid black;
+    color:rgb(48, 34, 34);
+    background-color: rgb(223, 64, 95);
+}
+#research-btn{
+    width:360px;
+    height:50px;
+    font-size:16px;
+    background-color:rgb(223, 64, 95); 
+}
+#down-navigation{
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2); 
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+}
+#loginTable{
+    font-size: 16px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:10px;
+    width:455px;
+   
+}
+#resetMedia{
+    width:600px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+#phd-admission{
+    display: none;
+}
+#faqquestion{
+    margin:40px;
+}
+
+
+
+}
+/*---media-laptop--*/
+@media(min-width: 1024px) and (max-width:1200px){
+    .row{
+        flex-direction: column;
+    }
+    #ROW{
+        margin-top:7%;
+        
+        margin-left: 1.7%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    #aboutBox{
+        font-size: 16px;
+        margin-left:auto;
+        margin-right: auto;
+        width:455px;
+    }
+    .text-box h1{
+        font-size:20px;    
+    }
+    .text-box p{
+        font-size:15px;
+        color:white; 
+        margin:10px 0 30px;
+    }
+    nav img{
+        width:230px;
+        height:90px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .nav-links ul{
+        text-align:left;
+    }
+    .nav-links ul li{
+        display:block;
+        font-size:15px;
+        text-transform: uppercase;
+        color:white;
+        
+    }
+    .nav-links ul li:hover{
+        color:black;
+    }
+    .nav-links{
+        text-decoration: none;
+        position:fixed;
+        background:#f55d52;
+        height:100vh;
+        width:200px;
+        top:0;
+        right:-200px;
+        text-align: left;
+        z-index:2;  
+        transition: 1s;  
+    }
+    #times{
+        display:block;
+        color:black;
+        margin:10px;
+        font-size: 20px;
+        cursor:pointer;
+    } 
+
+    #font{
+        display:none;
+    }
+    
+    .map-wrap{
+        width:550px;
+        padding:25px;
+        margin-left:210px;
+       
+        height:200px; 
+        background-color: white;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+    
+    }
+   #imageGallery{
+        width:990px;
+        margin:5px;
+    }
+    #flow-img{
+        width:300px;
+    }
+    #imageGallery1{
+        width:900px;
+        margin:5px;
+    }
+    #utube{
+        width:990px;
+        margin:15px;
+    }
+    .adminimg,#adminimg{
+        width:990px;
+        height:280px;
+        margin:17px;
+    }
+    .details3{
+        font-size: 11px;
+    }
+    
+    #fees-btn{
+    display: block;
+    width:900px;
+    margin-left:50px;
+    }
+    #FAQimg{
+        width:990px;
+        height:400px;
+        margin:13px;
+        background-color: white;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+    }
+    #scholar-ship{
+        margin:30px;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+    }
+
+    #placement-gallery{
+        width:990px;
+    }
+    .images-graph{
+        width:500px;
+        height:270px;
+        margin:5px;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2); 
+    }
+    #placement-year{
+        width: 400px;
+        margin:5px;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2); 
+    }
+    #research-btn{
+        width:580px;
+        height:50px;
+        font-size:16px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:rgb(223, 64, 95); 
+    }
+    #down-navigation{
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2); 
+        margin-left: auto;
+        margin-right: auto;
+        padding:20px;
+    }
+    #loginTable{
+        font-size: 16px;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top:10px;
+        width:455px;
+       
+    }
+    #tablepatent{
+       
+        width:65%;
+    }
+    #facultyloginm{
+        width:670px;
+        height:200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #resetMedia{
+        width:900px;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    #phd-admission{
+        display: none;
+    }
+    #research-btn3,#research-btn4{
+        display:block;
+        margin:0;
+    }
+    #research-btn1{
+        width:560px;
+        height:70px;
+        font-size:16px; 
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+    }
+    #faqquestion{
+        margin:40px;
+    }
+    .about-box1{
+        width:900px;
+    }
+    .footer{
+        width:1015px;
+    }
+    .footer-col{
+        width:990px;
+    }
+}
+
+
+
+
+
+
+
+
+
+        /*-----------------------------------------------ABOUT US-PAGE------------------------------------------*/
+
+
+
+
+
+
+
+
+    
+/*--about us---*/
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-align:center;
+   cursor:pointer;
+}
+    
+/*--column--*/
+.about-col{
+    background-image:url('log3.jpg') ;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-basis:80%;
+    margin:20px;
+    border-radius:10px;
+    margin-bottom:2%;
+    text-align: left;
+    padding:2px;
+    cursor:pointer;
+    display:flex;
+   
+}
+#about{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    line-height:28PX;
+    text-align:justify;
+    color:black;
+    font-size:17px;
+    margin:17px;
+    padding:17px;
+    background-color:#fff;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);
+   
+}
+.about-box{
+    margin:10px;
+    padding:10px;
+    float:left;
+    margin-right: 40px;
+    background-color:#fff;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:300px;
+    align-items: center;
+    border: #fff;
+    border-collapse: collapse;
+    height:fit-content;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+}
+.about-box a{
+    color:blue;
+    text-decoration: none;
+}
+.about-box a:hover{
+    color:lightseagreen;
+    
+}
+tr:nth-child(even){
+    background-color :#f3f3f3; 
+}
+tr:nth-child(even):hover{
+    background-color: #f8f7ec;
+}
+tr{
+    transition: all 0.3s ease-in;
+    cursor:pointer;
+}
+td{
+    padding:10px;
+    text-align:left;
+    border-bottom: 1px solid #ddd;
+    
+}
+tr:hover{
+    background-color: #f8f6e2;
+    transform:scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);
+}
+.row{
+    margin-top:2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*---images---*/
+#img-col{
+    width:fit-content;
+    height:auto;
+    margin:15px;
+    padding:15px;
+    color:black;
+    background:#FFE4E1;
+    border-radius: 15px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);
+    cursor:pointer;
+  
+}
+#img-col img{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    float:left;
+    margin:40px 20px 30px 0;
+    border:5px solid #fff;
+    shape-outside: circle();
+    -webkit-transform:scale(1);
+    transform: scale(1);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+#img-col img:hover{
+    -webkit-transform:scale(1.2);
+    transform: scale(1.2);  
+}
+#name{
+   
+    color:indigo;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#place{
+   margin-top: -15px;
+    color:indigo;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    margin-top: -15px;
+    font-size:18px;
+    line-height:25PX;
+    text-align: justify;
+
+}
+
+/*---vision page----*/
+#vision-img{
+    
+    width:100%;
+    cursor:pointer;
+    background-size: cover;
+}
+/*----leadership page----*/
+ #vel-r{
+     margin:15px;
+     margin-top:-7px;
+     margin-right:-5px;
+     width:200px;
+     height:200px;
+     float:right;
+ }
+ #vc{
+    margin:15px;
+    margin-top: -7px;
+    width:200px;
+    height:200px;
+    float:left; 
+ }
+ #kannan{
+    margin:15px;
+    margin-top: -7px;
+    width:200px;
+    height:200px;
+    float:right; 
+ }
+ #shiv{
+    margin:15px;
+    margin-top: -7px;
+    width:200px;
+    height:200px;
+    float:left; 
+ }
+ #more{
+     display: none;
+ }
+ #more1{
+    display: none;
+}
+#more2{
+    display: none;
+}
+ #myBtn{
+     cursor: pointer;
+     background-color:teal;
+     width:fit-content;
+     height:fit-content;
+    border:none;
+    color: #fff;
+    font-weight:600;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ #myBtn:hover{
+    background-color:blue;
+ }
+ #myBtn1{
+    cursor: pointer;
+    background-color:teal;
+    width:fit-content;
+    height:fit-content;
+   border:none;
+   color: #fff;
+   font-weight:600;
+   font-size: 14px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#myBtn1:hover{
+    background-color:blue;
+ }
+
+ #myBtn2{
+    cursor: pointer;
+    background-color:teal;
+    width:fit-content;
+    height:fit-content;
+   border:none;
+   color: #fff;
+   font-weight:600;
+   font-size: 14px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#myBtn2:hover{
+    background-color:blue;
+ }
+/*down-naviagtion*/
+.down-nav{
+  background-color:#FFE4E1;
+  margin:15px;
+  width:75%;
+  border-radius: 15px;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2); 
+}
+#plus-btn{
+    color:#262626;
+    float:right;
+    margin:3px;
+    padding:3px;
+}
+#plus-btn:hover{
+    color:red;
+}
+#dean{
+ width:75%;
+}
+.deans-btn{
+ width:75%;
+ border-radius: 50px;
+ border:none;
+ background-color:#fff;
+ text-align:left ;
+ padding:6px;
+ margin:15px;
+ cursor:pointer;
+ color:#262626;
+ font-size: 16px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.deans-btn:hover{
+    color:blue;
+}
+#Bm-para{
+    line-height: 25px;
+    font-size: 15px;
+    color:#262626;
+    margin:-10px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.about-box1{
+ overflow: scroll;
+display:none;
+margin:20px;
+padding:10px;
+margin-right: 40px;
+ background-color:#fff;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ width:75%;
+ align-items: center;
+ border: #fff;
+ border-collapse:collapse;
+ height:fit-content;
+ box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+}
+.about-box1 td, .about-box1 th{
+    border: 1px solid #ddd;
+    padding:8px;
+}
+.about-box1 a{
+    color:navy;
+    text-decoration: none;
+}
+.about-box1 a:hover{
+    color:lightseagreen;
+    
+}
+/*---table---*/
+tr:nth-child(even){
+    background-color :#f3f3f3; 
+}
+tr{
+    transition: all 0.3s ease-in;
+    cursor:pointer;
+}
+
+#details,#details5 , #details6{ 
+    color:black;
+    padding:10px;
+    text-align:center;
+    border-bottom: 1px solid #ddd;
+    
+}
+#details1{
+    line-height: 26px;
+    font-size:14px;
+    text-align: left;
+}
+#details2{
+    text-align:center;
+}
+#details3, #details4{
+    color:navy;
+    text-align:center;
+}
+#detailsfp{
+    color:navy;
+    text-align: left;
+}
+ .S-NO:hover{
+     background-color: #fff;
+     transform:scale(1);
+     box-shadow: none; 
+ }
+#table-plus, #table-plus1, #table-plus2, #table-plus3, #table-plus4,#table-mtech,#table-ugscholar,#table-hostelfees,#table-transportFees{
+    display: none;
+    width:75%;
+    margin:15px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+    background-color: #fff;
+    overflow: scroll;
+}
+
+tr:hover{
+    background-color: #f8f6e2;
+    transform:scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);
+}
+/*---administrative office----*/
+#acedemics, #rd,#student-Counselling, #Human-Resources{
+    display: none;
+    width:75%;
+    margin:15px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+    background-color: #fff;
+}
+#industry, #campus-corporate, #student-welfare, #Public-Relations{
+    display: none;
+    width:75%;
+    margin:15px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+    background-color: #fff;
+}
+#international, #quality{
+    display: none;
+    width:75%;
+    margin:15px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+    background-color: #fff;
+}
+#h4{
+    margin:10px;
+    padding:10px;
+    font-size: 18px;
+    line-height: 26px;
+    color:navy;
+}
+  
+/*---infrastucture----*/  
+.map-wrap{
+    padding:25px;
+    margin-right: 30px; 
+    overflow: scroll;
+    height:fit-content;
+    border:red;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+
+}
+* {box-sizing:border-box}
+/* Slideshow container */
+.slideshow-container {
+margin-left: 30px;
+width:800px;
+position: relative;
+ 
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #fff;
+    background-color:#262626;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color:#262626;
+}
+
+/* Caption text */
+.text {
+  color: #262626;
+  font-size: 23px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #262626;
+ background-color:lavender;
+  font-size: 20px;
+  padding: 15px;
+  font-weight: 700;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  margin-top:-90px;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color:grey;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color:lightgrey;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/*-----CSR-----*/
+.slideshow-container1 {
+    float: none!important;
+    margin: 20px auto 20px auto!important;
+    display: block;
+    width:800px;
+    position: relative;
+     
+    }
+.flowchart{
+    float: none!important;
+    margin: 20px auto 20px auto!important;
+    display: block;
+}
+/*---Thumbnail images-----*/
+.tn-img{
+    height:200px;
+    width:100px;
+    padding:6px;
+    -webkit-transform:scale(1);
+    transform: scale(1);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+}
+.tn-img:hover{
+   opacity:1;
+    -webkit-transform:scale(1.1);
+    transform: scale(1.1);  
+}
+  
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+ /* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+
+
+
+
+
+
+
+
+           /*------------------------------ADMISSION PAGE---------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*admission page*/
+.youtube{
+    width:1450px;
+    height:430px;
+    margin:25px;
+}
+#admission-img{
+    height:540px;
+    width:50%;
+    margin:15px;
+}
+#admissionFor-img{
+    height:540px;
+    width:50%;
+    margin:15px;
+    float: left;
+}
+/*---SPORTS QUOTA--*/
+#sports-img{
+    height:400px;
+    width:100px;
+    margin:25px;
+   
+}
+#aboutBox{
+    margin-top: -4%;
+}
+#sportsList{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    margin:14px;
+    line-height: 28px;
+    margin-top: -10px;
+}
+/*--fees strcture*/
+.fees-btn-header{
+    text-align: center;
+}
+.fees-btn{
+ width:200px;
+ height:55px;
+ margin:15px;
+ padding:10px;
+ text-align: center;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: 17px;
+ border:none;
+ border-radius: 5px;
+ outline: none;
+ background-color:rgb(136, 173, 241);
+ color:black;
+}
+
+.fees-btn:hover{
+ 
+    color:white;
+    background-color:rgb(224, 52, 87);
+}
+    
+.fees-ul{
+   margin-right:30px;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.fees-h3{
+    text-align: center;
+}/*scholarship*/
+.scholar-box{
+    font-size: 17px;
+    margin-left:90px;
+    text-align: center;
+    overflow: scroll;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+}
+
+
+
+
+
+
+
+
+
+
+           /*------------------------------PLACEMENT PAGE---------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--placements page---*/
+#placement-img{
+    height:400px;
+    width:300px;
+    padding:20px;
+}
+.placement-gallery{
+   text-align: center;
+}
+.objective{
+    background-color:#fff;
+    margin:20px;
+    padding:10px;
+    border-radius:10px;
+}
+.objective.objective li{
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:22px;
+    margin:10px;
+    list-style: circle;
+   list-style-position: inside;
+}
+#placement-h2{
+font-family: Arial, Helvetica, sans-serif;
+}
+.placement-num{
+   display:flex; 
+   margin:30px;
+   color:#fff;
+   background-color: teal;
+   border-radius: 5px;
+}
+#numbers{
+    font-size: 60px;
+    margin: 10px;
+    color:yellowgreen;
+    cursor:pointer;
+}
+#placement-total{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: left;
+    width:200px;
+}
+.placement-list{
+width:max-width;
+text-align: center;
+}
+.box-2019-body{
+    text-align: center;
+}
+.box-table2019{ 
+    margin-left:auto;
+    margin-right: auto;
+    background-color:white;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2); 
+    overflow: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+           /*------------------------------RESEARCH PAGE---------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Research page*/
+.researchImg{
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2); 
+}
+/*ap*/
+#fas-down{
+    color:#fff;
+    font-size:20px;
+    margin:10px;
+   }
+
+   .research-btn{
+       display:block;
+       outline:none;
+       border:none;
+       font-size: 17px;
+       text-align: left;
+       font-family: Arial, Helvetica, sans-serif;
+       background-color:rgb(219, 60, 92);
+       color:#fff;
+       border-radius: 10px;
+       margin: 8px;
+       width:260px;
+       height:50px;
+       cursor: pointer;
+       
+   }
+   .research-btn:hover{
+       color:black;
+   }
+   #phd-announcement,#phd-eligibility,
+   #phd-Procedure,#phd-regulation,#phd-sys,#phd-dates,#phd-exam,#phd-modes{
+       display: none;
+       width:75%;
+       margin:15px;
+       box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+       background-color: #fff;
+   }
+   #phd-admission{
+       width:75%;
+       margin:15px;
+       box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+       background-color: #fff;
+   }
+   /*fp*/
+   
+   .research-btn1{
+       display:block;
+       outline:none;
+       border:none;
+       font-size: 19px;
+       text-align:center;
+       font-family: Arial, Helvetica, sans-serif;
+       background-color:blue;
+       color:#fff;
+       border-radius: 10px;
+       padding: 10px;
+      margin: 10px;
+       margin-left:auto;
+       margin-right: auto;
+       width:420px;
+       height:90px;
+       cursor: pointer;
+   }
+   .research-btn1:hover{
+       border:1px solid red;
+       color:black;
+       background-color: #fff;
+       font-size: 20px;
+   }
+
+   /*patents*/
+   #fas-down1{
+    color:darkblue;
+    font-size:20px;
+    margin:10px;
+
+}
+
+.research-btn2{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:red;
+}
+.research-btn4{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:red;
+    margin-left: 60px;
+    
+}
+.research-btn5{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:red;
+    margin-left:50px; 
+}
+
+
+.research-btn3{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:red;
+    float:right;
+    margin-left:1150px;
+   
+}
+.research-btn2:hover{
+    color:darkblue;
+}
+ 
+#tablepatent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*---IR--*/
+#IR1{
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+           /*------------------------------LOGIN PAGE---------------------------------------------*/
+
+
+
+
+
+
+
+
+
+/*--login page--*/
+.login_img{
+    width:100%;
+    margin:15px;
+    border-radius: 5px;
+    height:400px;
+}
+.reset{
+   width:75%;
+    margin-right:25px;
+    padding:10px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2); 
+}
+.reset ul li{
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*faculty login*/
+.campus{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:50px;
+}
+
+.campus-col{
+    flex-basis: 32%;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2),-1px -1px 8px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.campus-col img{
+    width:100%;
+    height:100%;
+    display: block;
+    
+}
+.layer{
+    border-color:black;
+    background: transparent;
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.layer:hover{
+    background: rgba(255, 135, 135, 0.8);
+    transition: 0.8s;
+}
+.layer h3{
+    color:black;
+    width:100%;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:18px;
+    bottom:0;
+    left:45%;
+    transform: translateX(-50%);
+    position:absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom:49%;
+    opacity:1;
+}
+
+
+
+
+
+
+
+
+
+
+           /*------------------------------CONTACT US PAGE---------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*contact us page*/
+.contact-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    color:crimson;
+    text-align: center;
+}
+
+.contact{
+    width:96%;
+    margin:auto;
+    text-align:center;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2); 
+} 
+h3{
+    color:navy;
+    font-size:22px;
+    font-weight: 500px;
+}
+ p{
+    font-size:16px;
+    line-height:25px;
+    padding:17px;
+    color:black;
+    text-align: left;
+}
+.row{
+    margin-top:3%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-col{
+    flex-basis:21%;
+    background: #fff;
+    border-radius:10px;
+    margin-bottom:1%;
+    padding:16px 8px;
+    box-sizing:border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+           /*------------------------------EMAIL PAGE---------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+/*---email page--*/
+.header-background{
+    background-color:lightgoldenrodyellow;
+    height:100px;
+}
+.suggestion-head{
+    text-align: center;
+    font-size: 27px;
+    word-spacing: 8px;
+}
+.form_suggestion{
+    margin: auto;
+     
+    padding: 10px 20px;
+    width:600px;
+     height:auto;
+     border-radius: 10px;
+     border:2px solid white;
+     box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2); 
+     
+}
+.error{
+    color:red;
+}
+.form-name{
+    text-align:left;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: firebrick;
+    
+}
+input[type=text]{
+   border:none;
+   padding:2px 20px;
+   margin: 8px 0;
+   box-sizing: border-box;
+    border-bottom: 2px solid black;
+    width:550px;
+    height:30px;
+  }
+  .comment{
+      border:2px solid black;
+      padding:2px 20px;
+      margin: 8px 0;
+      width: 550px; 
+      height:200px;
+      border-radius: 5px;
+  }
+  .submit-btn{
+      display: inline-block;
+      text-align:center;
+      margin-left: 190px;
+      margin-bottom: 2%;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      padding:12px;
+      width:150px;
+      color:white;
+      border:none;
+      background-color:navy;
+      transition-duration: 0.4s;
+      cursor: pointer;
+  }
+ 
+  .submit-btn:hover {
+    color:black;
+    background-color:lightblue;
+  }
+
+
+
+
+
+
+
+
+
+
+           /*------------------------------FAQ PAGE---------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*--FAQ-PAGE--*/
+  .faq-img{
+     height:420px;
+     width:1480px;
+     margin:10px;
+     background-color: white;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+  }
+.down-nav1{
+    margin-left:45px;
+    width:65%;
+    border-radius: 1px;
+  }
+  #apply, #fee,#scholarship, #work , #hardCopy, #sim , #facilitiesHostel, #wifi, #immigration,  #convert,  #expensesPay,  #expenses,  #decision{ 
+    display: none;
+    width:75%;
+    margin:15px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+           /*------------------------------FOOTER PAGE------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+           
+/*--footer*/
+
+
+.footer{
+    margin:2px;
+}
+.clgNameFooter{
+    font-size: 18px;
+    color:navy;
+}
+
+.footer-box1{
+    overflow: scroll;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:fit-content;
+    color:navy;
+    overflow: scroll;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3),-1px -1px 8px rgba(0,0,0,0.2);  
+
+}
+.footer-box1 td,.footer-box1 th{
+    border: 1px solid #ddd;
+    padding:8px;
+    
+}
+.footer-col{
+    border-radius:1px;
+    text-align: left;
+    background-color: #e0ebeb;
+    padding:20px;
+    margin:0;
+    cursor:pointer;
+    width:97%;
+    height:220px;
+}
+.footer-col ul a{
+    line-height:28px;
+    font-size: 18px;
+    list-style: none;
+    text-decoration: none;
+    color:black;
+    font-weight: 300;
+}
+.footer-col ul a:hover{
+    font-size:20px;
+}
+
+/*---social media---*/
+#watsapp{font-size:35px;color:#0077b5;padding:10px}
+#watsapp:hover{
+    font-size: 45px;
+}
+
+#fb{font-size:35px;color:royalblue;padding:10px}
+#fb:hover{
+    font-size: 45px;
+}
+#twitter{font-size:35px;color:rgba(23, 222, 248, 0.685);padding:10px}
+#twitter:hover{
+    font-size: 45px;
+}
+
+#instagram{font-size:35px;color:rgb(233, 6, 138);padding:10px}
+
+#instagram:hover{
+    font-size: 45px;
+}
+
+
