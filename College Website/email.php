@@ -42,7 +42,7 @@ $mobile_number = $_POST['number'];
 $subject = $_POST['subject'];
 $comment = $_POST['comment'];
 
-$email_from = 'myprojectwebsites.com';
+$email_from = 'https://priyadharshini0603.github.io/Projects/College%20Website/clg-website-email.html';
 
 $to = 'pd999796@gmail.com';
 
