@@ -5,6 +5,7 @@
 header{
       background-color:rgb(104, 101, 101);
      display:flex; 
+       justify-content: flex-end;
 }
 a{
       text-decoration:none;
@@ -35,8 +36,9 @@ li{
 .logo{
      width:160px;
      height:60px;
-     margin:10px;
-     float:left;
+     margin-left:10px;
+     margin-right: auto;
+     margin-top:10px;
 }
 .menu-btn {
       font-size:18px;
@@ -161,7 +163,7 @@ h4{
       
 }
 .top-btn{
-      margin-left: 1250px;
+      margin-left:auto;
       font-size:17px;
       font-weight: bold;
       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
