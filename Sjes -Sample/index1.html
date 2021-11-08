@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>SJES Nursing Institution</title>
+      <link rel="stylesheet" href="sjes1.css" />
+      <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" />
+      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet" />
+      <script src="https://kit.fontawesome.com/4925863bbe.js" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+            integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+            integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+      <!-- bootstrap cdn -->
+      <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+      <!-- slick cdn -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+            integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+            integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+
+<body onload="slider();">
+      <!-- NAVIGATION BAR -->
+      <header>
+            <img class="media-img" src="./images/logo.png" />
+            <div class="top-head">
+                  <ul>
+                        <li>
+                              <i class="fas fa-phone-square-alt"></i>+91 8095227773, +91
+                              8050363675
+                        </li>
+                        <li><i class="fas fa-envelope"></i>principalsjes2018@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i>Medahalli, Bengaluru</li>
+                  </ul>
+            </div>
+            <label for="btn" class="icon"><span class="fa fa-bars"></span></label>
+            <nav>
+                  <img src="./images/logo.png" />
+                  <input type="checkbox" id="btn" />
+                  <ul>
+                        <li>
+                              <a href=""><b>Home</b></a>
+                        </li>
+                        <li>
+                              <a href="" class="about-btn"><b>About Us</b> <span
+                                          class="fas fa-caret-down first"></span></a>
+                              <ul class="about-show">
+                                    <li>
+                                          <a href=""><b>Founders</b></a>
+                                    </li>
+                                    <li>
+                                          <a href=""><b>Secretary</b></a>
+                                    </li>
+                                    <li>
+                                          <a href=""><b>Principal's Desk</b></a>
+                                    </li>
+                                    <li>
+                                          <a href=""><b>Governing Bodies</b></a>
+                                    </li>
+                              </ul>
+                        </li>
+                        <li>
+                              <a href="" class="courses-btn"><b>Courses</b> <span
+                                          class="fas fa-caret-down second"></span></a>
+                              <ul class="courses-show">
+                                    <li>
+                                          <a href=""><b>B.sc Nursing</b></a>
+                                    </li>
+                                    <li>
+                                          <a href=""><b>Diploma Nursing(GNM)</b></a>
+                                    </li>
+                              </ul>
+                        </li>
+                        <li>
+                              <a href=""><b>Admission</b></a>
+                        </li>
+                        <li>
+                              <a href=""><b>Infrastructure</b></a>
+                        </li>
+                        <li>
+                              <a href=""><b>Facilities</b></a>
+                        </li>
+                        <li>
+                              <a href=""><b>Contact Us</b></a>
+                        </li>
+                  </ul>
+            </nav>
+      </header>
+      <script>
+            $(".about-btn").click(function () {
+                  $("nav ul .about-show").toggleClass("show");
+            });
+            $(".courses-btn").click(function () {
+                  $("nav ul .courses-show").toggleClass("show1");
+            });
+      </script>
+      <br /><br />
+      <!-- CONTENT-HEAD -->
+      <div class="overlay">
+            <div class="content">
+                  <h1>About Our SJES</h1>
+                  <p>
+                        Welcome to
+                        <b class="clg-name">Sri Jayachamarajendra Education Society</b>. It
+                        was founded by Sri. Kaverappa in 1979. SJES a multifaceted educational
+                        organization centrally located near K.R. Puram, Bangalore
+                  </p>
+            </div>
+      </div>
+      <div class="vist-btn">
+            <button class=know-btn><a href="">Visit Us To Know More</a></button>
+      </div>
+
+      <br />
+      <!-- images zoom-in-out -->
+      <div class="banner">
+            <div class="slider">
+                  <img src="./images/images.jfif" id="slideImg" />
+            </div>
+            <script>
+                  var slideImg = document.getElementById("slideImg");
+                  var images = new Array(
+                        "./images/img1.jfif",
+                        "./images/img2.jfif",
+                        "./images/img3.jfif",
+                        "./images/img4.jfif"
+                  );
+                  var len = images.length;
+                  var i = 0;
+                  function slider() {
+                        if (i > len - 1) {
+                              i = 0;
+                        }
+                        slideImg.src = images[i];
+                        i++;
+                        setTimeout("slider()", 8000);
+                  }
+            </script>
+            <br />
+
+            <!-- Messages  -->
+
+            <div class="updates">
+                  <div class="updates-col">
+                        <h2>Founder's Message</h2>
+                        <h6>Late Kaverappa, Founder SJES</h6>
+                        <div class="writer-imgName">
+                              <a href="#" target="_blank"><img class="writer-img" src="./images/founder1.jfif"
+                                          alt="founder image" /></a>
+                              <p class="mgs">
+                                    I had a dream to contribute as much as possible for the education
+                                    and upliftment of the weaker sections of the society especially
+                                    from the rural areas. With this objective, along with a group of
+                                    like minded people, Sri Jayachamarajendra Education Society (R)
+                                    was established in 1979. The primary objective of the Society has
+                                    been to impart quality Education in the areas.Students in S.J.E.S.
+                                    Institutions come from all over the country and abroad, apart from
+                                    Karnataka. A large number of students join the S.J.E.S. from
+                                    Kerala, Tamil Nadu, Andhra Pradesh, etc.
+                              </p>
+                        </div>
+                  </div>
+
+                  <div class="updates-col">
+                        <h2>Secretary's Message</h2>
+                        <h6>K. Nagaraj Secretary, SJES</h6>
+                        <div class="writer-imgName">
+                              <a href="#" target="_blank"><img class="writer-img" src="./images/founder2.jfif"
+                                          alt="founder image" /></a>
+                              <p class="mgs">
+                                    welcoming the students from across the country & from abroad to
+                                    S.J.E.S Institutions, we assure that we are committed to the cause
+                                    of the student community to help them mould their future and
+                                    realize their aspirations. The salient features of the campus are
+                                    the facilities such as laboratories, libraries, computer centers,
+                                    well furnished & spacious class rooms, play grounds and separate
+                                    hostels for girls and boys, all that is required for a student to
+                                    pursue his studies without disturbances or distractions to the
+                                    fullest extent.
+                              </p>
+                        </div>
+                  </div>
+            </div>
+            <br />
+
+            <!-- NOTE-LEFT-RIGHT -->
+            <div class="moving">
+                  <marquee behavior="scroll" direction="left"
+                        style="background-color: #0e0d0d; font-size: 15px; height: 50px">
+                        <h4 style="
+              color: #e7dbdb;
+              font-size: 15px;
+              font-weight: bold;
+              margin-top: 15px;
+            ">
+                              Recognized by Government of Karnataka | Affiliated to Rajiv Gandhi
+                              University of Health Sciences, Bangalore | Approved by Indian
+                              Nursing Council (INC),New Delhi | Karnataka Nursing Council (KNC) |
+                              Karntaka State Nursing Examination Board(KSDNEB)
+                        </h4>
+                  </marquee>
+            </div>
+            <!-- courses -->
+
+            <div class="content-courses">
+                  <div class="content">
+                        <h1>Courses Offered</h1>
+                        <p>
+                              We Give High Importance to keeping our faculty updated on the best
+                              practices and latest Techniques in Training
+                        </p>
+                  </div>
+                  <br />
+                  <!-- bsc -->
+                  <div class="image-section">
+                        <div class="image">
+                              <img class="img-book" src="./images/bsc.jfif" alt="Bsc Nursing" />
+                              <div class="image-overlay">
+                                    <button class=know-btn><a href="">Know More</a></button>
+                              </div>
+                        </div>
+                        <div class="text">
+                              <div class="content-sec">
+                                    <h4 class="color-text">B.Sc in Nursing</h4>
+                                    <h3>Full Time Course</h3>
+                                    <p class="bsc-p">
+                                          This four year graduate program of study is offered by Rajiv
+                                          Gandhi University of Health&nbsp; science, Bangalore. The basic
+                                          B.Sc Nursing consists of four academic years to provide
+                                          professional and general education.
+                                    </p>
+                                    <div class="social-icons">
+                                          <i class="fas fa-rupee-sign">&nbsp;60,000</i>
+                                          <i class="fas fa-clock">&nbsp;4 yrs</i>
+                                          <i class="fas fa-book-reader">&nbsp;English</i>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+                  <br /><br />
+                  <!-- msc -->
+                  <div class="image-section">
+                        <div class="image">
+                              <img class="img-book" src="./images/img-teaching.jfif" alt="Diploma Nursing(GNM)" />
+                              <div class="image-overlay">
+                                    <button class=know-btn><a href="">Know More</a></button>
+                              </div>
+                        </div>
+                        <div class="text">
+                              <div class="content-sec">
+                                    <h4 class="color-text">Diploma Nursing &nbsp;(GNM)</h4>
+                                    <h3>Full Time Course</h3>
+                                    <p class="bsc-p">
+                                          This 3 1/2 year + 6 Months Internship graduate program of study
+                                          is offered by Rajiv Gandhi University of Health&nbsp; science,
+                                          Bangalore. The Diploma Nursing consists of 3 1/2 academic years
+                                          to provide professional and general education.
+                                    </p>
+                                    <div class="social-icons">
+                                          <i class="fas fa-rupee-sign">&nbsp;60,000</i>
+                                          <i class="fas fa-clock">&nbsp;3 1/2 yrs</i>
+                                          <i class="fas fa-book-reader">&nbsp;English</i>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <br /><br />
+            <!-- counter up animation -->
+            <div class="content">
+                  <h1>Our Features</h1>
+                  <p>
+                        We Give High Importance to Maintain Our Professional Quality Towards Nursing
+                  </p>
+            </div>
+            <br />
+            <div class="counter-up">
+                  <div class="counter-content">
+                        <div class="box">
+                              <div class="counter-icon">
+                                    <i id="counter-icons" class="fas fa-trophy"></i>
+                              </div>
+                              <div class="counter-number">50</div>
+                              <div class="counter-text">Years of Excellence in Education</div>
+                        </div>
+
+                        <div class="box">
+                              <div class="counter-icon">
+                                    <i id="counter-icons" class="fas fa-users"></i>
+                              </div>
+                              <div class="counter-number">518</div>
+                              <div class="counter-text">
+                                    Students inclusive of foregin national
+                              </div>
+                        </div>
+
+                        <div class="box">
+                              <div class="counter-icon">
+                                    <i id="counter-icons" class="fas fa-user-graduate"></i>
+                              </div>
+                              <div class="counter-number">678</div>
+                              <div class="counter-text">
+                                    Students who are experts in their field
+                              </div>
+                        </div>
+
+                        <div class="box">
+                              <div class="counter-icon">
+                                    <i id="counter-icons" class="fas fa-wifi"></i>
+                              </div>
+                              <div class="counter-number">14</div>
+                              <div class="counter-text">
+                                    Acre of spravling wi-fi enabled campus
+                              </div>
+                        </div>
+                  </div>
+            </div>
+            <!-- jquery for counter -->
+            <script>
+                  $(".counter-number").counterUp({
+                        delay: 10,
+                        time: 1200,
+                  });
+            </script>
+            <br /><br />
+            <!-- placement -->
+            <div class="content">
+                  <h1>Our Placement To Students</h1>
+
+                  <p>
+                        MOULDING STUDENTS FOR BETTER EMPLOYABILITY.<br> SJES is a permanent
+                        Affiliated Institution of Bangalore University, Approved by AICTE
+                        Govt. of India, SJES College of Management Studies, Bangalore, India,
+                        that has cemented its reputation as one of the country's premier
+                        institutions, provides tomorrow's education today. With a track record
+                        of more than 4 decades in providing quality education from the
+                        pre-primary to the post-graduate level, SJES is an exciting and
+                        diverse center of thinking.
+                  </p>
+            </div>
+            <br /><br /><br />
+            <div class="container-logo">
+                  <div class="logo-slider">
+                        <div class="item"><img src="./images/brand11.png" /></div>
+                        <div class="item"><img src="./images/brand1.jfif" /></div>
+                        <div class="item"><img src="./images/brand2.png" /></div>
+                        <div class="item"><img src="./images/brand3.png" /></div>
+                        <div class="item"><img src="./images/brand4.png" /></div>
+                        <div class="item"><img src="./images/brand5.png" /></div>
+                        <div class="item"><img src="./images/brand6.png" /></div>
+                        <div class="item"><img src="./images/brand7.png" /></div>
+                        <div class="item"><img src="./images/brand8.png" /></div>
+                        <div class="item"><img src="./images/brand9.png" /></div>
+                        <div class="item"><img src="./images/brand10.png" /></div>
+                        <div class="item"><img src="./images/brand12.png" /></div>
+                  </div>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+            <!-- jquery for slider -->
+            <script>
+                  $(".logo-slider").slick({
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        autoplaySpeed: 1600,
+                        pauseOnHover: false,
+                        responsive: [
+                              {
+                                    breakpoint: 768,
+                                    settings: {
+                                          slidesToShow: 3,
+                                    },
+                              },
+                              {
+                                    breakpoint: 520,
+                                    settings: {
+                                          slidesToShow: 2,
+                                    },
+                              },
+                        ],
+                  });
+            </script>
+            <br /><br /><br />
+
+            <!---Alumni-->
+            <div class="content">
+                  <h1>Alumni's Messages</h1>
+                  <p>Everything’s Always Ending. But Everything’s Always Beginning,Too</p>
+            </div>
+            <div class="alumni">
+                  <div class="row">
+                        <div id="alumni-col" class="alumni-col">
+                              <img id="stud" src="./images/user1.jpg" />
+                              <div>
+                                    <p id="say">
+                                          I am thankful to all the faculty members of the College for
+                                          their continuous efforts and support. Apart from excellent
+                                          academic experience, I also gained the benefits of being a part
+                                          of Cultural Student' body. I cherish every moment spent at SJES.
+                                          My graduation at SJES has been a very interesting and awesome
+                                          journey.
+                                    </p>
+                                    <h3 id="name">Nancy Scott</h3>
+                                    <i id="star" class="fas fa-star"></i>
+                                    <i id="star" class="fas fa-star"></i>
+                                    <i id="star" class="fas fa-star"></i>
+                                    <i id="star" class="fas fa-star"></i>
+                                    <i id="star" class="fas fa-star-half-alt"></i>
+                              </div>
+                        </div>
+                        <div id="alumni-col" class="alumni-col">
+                              <img id="stud" src="./images/user4.jpg" />
+                              <div>
+                                    <p id="say">
+                                          I thank the institute and the faculty for all the efforts put in
+                                          by them, along with the perseverance and right moves have paid
+                                          off finally. All my batch mates are doing well in their
+                                          respective jobs which reflect the quality of the students the
+                                          institute has produced.
+                                    </p>
+                                    <h3 id="name">Anil Sharma</h3>
+                                    <i id="star" class="fas fa-star"></i>
+                                    <i id="star" class="fas fa-star"></i>
+                                    <i id="star" class="fas fa-star"></i>
+                                    <i id="star" class="fas fa-star"></i>
+                                    <i id="star" class="far fa-star"></i>
+                              </div>
+                        </div>
+                  </div>
+
+                  <div class="row">
+                        <div id="alumni-col" class="alumni-col">
+                              <img id="stud" src="./images/user6.jpg" />
+                              <div>
+                                    <p id="say">
+                                          SJES was more than a college to me. Its a privilege to be
+                                          connected to this institution .A place where I gained knowledge,
+                                          best needed for the survival in outer world and confidence.
+                                          Right from day 1 energy and enthusiasm is what I experienced ,be
+                                          it faculty or students. I am what I am this day because of the
+                                          curriculum, the teaching methodology adopted by the
+                                          professors.Thank You To all My Staffs.
+                                    </p>
+                                    <h3 id="name">Rakesh Varma.S</h3>
+                                    <i id="star" class="fas fa-star"></i>
+                                    <i id="star" class="fas fa-star"></i>
+                                    <i id="star" class="fas fa-star"></i>
+                                    <i id="star" class="fas fa-star-half-alt"></i>
+                                    <i id="star" class="far fa-star"></i>
+                              </div>
+                        </div>
+                        <div id="alumni-col" class="alumni-col">
+                              <img id="stud" src="./images/user5.jpg" />
+                              <div>
+                                    <p id="say">
+                                          College is one of the memorable parts of a student's life
+                                          whether it was about friends, professors or growth of life. The
+                                          Labs was our innovation center/lab and the problems solved there
+                                          were the most complicated problems solved till date. An Amazing
+                                          institution which teaches you self discipline,confidence and
+                                          problem solving an essential traits to start your journey .
+                                    </p>
+                                    <h3 id="name">Pooja .T</h3>
+                                    <i id="star" class="fas fa-star"></i>
+                                    <i id="star" class="fas fa-star"></i>
+                                    <i id="star" class="fas fa-star"></i>
+                                    <i id="star" class="fas fa-star"></i>
+                                    <i id="star" class="fas fa-star"></i>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+
+      <br /><br /><br />
+
+
+      <!-- Footer -->
+      <footer class="footer-section">
+            <div class="container">
+                  <div class="footer-cta py-5">
+                        <div class="row">
+                              <div class="col-sm-6 col-xs-4 mb-30">
+                                    <div class="single-cta">
+                                          <i class="fas fa-phone-square-alt"></i>
+                                          <div class="cta-text">
+                                                <h4>Call Us</h4>
+                                                <span>+91 8095227773, +91 8050363675</span>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="col-sm-6 col-xs-4 mb-30">
+                                    <div class="single-cta">
+                                          <i class="fas fa-envelope"></i>
+                                          <div class="cta-text">
+                                                <h4>Mail Us</h4>
+                                                <span>principalsjes2018@gmail.com</span>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="footer-content py-5">
+                        <div class="row">
+                              <div class="col-lg-4">
+                                    <div class="footer-widget">
+                                          <div class="footer-logo">
+                                                <a href="#"><img src="./images/logo.png" class="img-fluid" /></a>
+                                          </div>
+                                          <div class="footer-text">
+                                                <p>
+                                                      We Give High Importance to keeping our faculty updated on
+                                                      the best practices and latest Techniques in Training
+                                                </p>
+                                          </div>
+                                          <div class="footer-social-icon">
+                                                <span>Follow Us</span>
+                                                <a href="#"><i class="fab fa-whatsapp whatsapp-bg"></i></a>
+                                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                          </div>
+                                    </div>
+                              </div>
+
+                              <div class="col-lg-4">
+                                    <div class="footer-widget">
+                                          <div class="footer-widget-heading">
+                                                <h3>Useful Links</h3>
+                                          </div>
+
+                                          <li><a href="">Home</a></li>
+                                          <li><a href="">About</a></li>
+                                          <li><a href="">Admissions</a></li>
+                                          <li><a href="">Courses</a></li>
+                                          <li><a href="">Infrastructure</a></li>
+                                          <li><a href="">Facilities</a></li>
+                                          <li><a href="">Gallery</a></li>
+                                          <li><a href="">Updates</a></li>
+                                    </div>
+                              </div>
+
+                              <div class="col-lg-4">
+                                    <div class="footer-widget">
+                                          <div class="footer-widget-heading">
+                                                <h3>Connect with Us!</h3>
+                                          </div>
+                                          <div class="footer-text">
+                                                <p>Feel Free To Ask..</p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+            <div class="copyright-area">
+                  <div class="container">
+                        <div class="row">
+                              <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                                    <div class="copyright-text">
+                                          <p>
+                                                CopyRights &copy; 2021 | All Rights Reserved
+                                                <a href="">SJES Institution</a> Developed by
+                                                <a href="">Nita Microtek</a>
+                                          </p>
+                                    </div>
+                              </div>
+                              <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                                    <div class="footer-menu">
+                                          <li><a href="">Home</a></li>
+                                          <li><a href="">Terms</a></li>
+                                          <li><a href="">Privacy</a></li>
+                                          <li><a href="">Policy</a></li>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </footer>
+      <a class=top-btn href="#"><i class="fas fa-arrow-up"></i></a>
+</body>
+
+</html>
