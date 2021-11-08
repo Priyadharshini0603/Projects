@@ -6,6 +6,8 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     
 }
+header{
+  position:fixed;}
 .top-head {
   background-color: rgb(4, 4, 92);
   margin: 0px;
