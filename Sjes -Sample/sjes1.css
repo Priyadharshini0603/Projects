@@ -956,7 +956,7 @@ html {
 @media (max-width: 766px){
   .icon {
     display: block;
-    color: red;
+    color:#fff;
     position: absolute;
     left: 322px;
     top: 216px;
