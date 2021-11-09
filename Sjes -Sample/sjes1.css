@@ -1,4 +1,19 @@
-* {
+@media (max-width: 768px)
+.top-btn {
+    width: 47
+px
+;
+    height: 50
+px
+;
+    background-color: #1b1b1b;
+    bottom: 8
+px
+;
+    right: 8
+px
+;
+}* {
   margin: 0px;
   padding: 0;
   box-sizing: border-box;
