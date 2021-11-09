@@ -1,19 +1,4 @@
-@media (max-width: 768px)
-.top-btn {
-    width: 47
-px
-;
-    height: 50
-px
-;
-    background-color: #1b1b1b;
-    bottom: 8
-px
-;
-    right: 8
-px
-;
-}* {
+* {
   margin: 0px;
   padding: 0;
   box-sizing: border-box;
@@ -959,8 +944,8 @@ html {
     width: 47px;
     height: 50px;
    background-color: #1b1b1b;
-   bottom: 126px;
-   right: 31px;
+   bottom: 8px;
+   right: 8px;
   }
    .top-btn i {
     left:20px;
@@ -978,7 +963,7 @@ html {
     font-size: 22px;
     cursor: pointer;
   }
-}
+
 @media (min-width: 768px) and (max-width: 1024px){
   .icon {
     display: block;
